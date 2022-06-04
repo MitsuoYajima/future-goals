@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'post', to: 'goals#new'
+  root to: 'goals#index'
 end
